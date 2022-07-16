@@ -14,3 +14,6 @@
 :global(.vtex-store-drawer-0-x-openIconContainer){
   color: #fff;
 }
+:global(.vtex-login-2-x-label){
+  color: #fff!important;
+}

@@ -1,3 +1,7 @@
+.footerLayout{
+  background: #142032;
+  color: #fff;
+}
 .row--menu-row {
   padding-right: 24px;
 }
@@ -8,4 +12,15 @@
 
 .row--payment-methods {
   padding-top: 16px;
+}
+.footerLayout .rich-text{
+  color: #fff;
+  text-align: center;
+}
+.socialNetworkImage,
+.paymentMethodIconImage{
+  filter: brightness(100);
+}
+.rich-text{
+  color: #fff;
 }

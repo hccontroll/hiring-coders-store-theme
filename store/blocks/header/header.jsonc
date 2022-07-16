@@ -53,7 +53,7 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#category-menu"
+      // "flex-layout.col#category-menu"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -105,12 +105,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-1",
-      "menu-item#category-2",
-      "menu-item#category-3",
-      "menu-item#category-4",
-      "menu-item#category-5",
-      "menu-item#category-6"
+      "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
       "orientation": "vertical"

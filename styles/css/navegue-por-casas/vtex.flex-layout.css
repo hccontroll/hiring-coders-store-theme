@@ -1,13 +1,16 @@
 .flexRow--titulo-navegue-por-casas {
-    margin-top: 32px;
-    margin-bottom: 12px;
+  margin-top: 32px;
+  margin-bottom: 12px;
 }
 
 .flexRow--navegue-por-casas {
-    margin-top: 12px;
-    margin-bottom: 32px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  width: 100%;
 }
 
-.flexRowContent--navegue-por-casas .stretchChildrenWidth {
+@media screen and (min-width: 992px) {
+  .flexRowContent--navegue-por-casas .stretchChildrenWidth {
     margin: 0 8px;
+  }
 }

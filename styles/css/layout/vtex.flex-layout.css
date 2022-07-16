@@ -1,5 +1,11 @@
 .flexRowContent--container {
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .flexRowContent--container {
+    padding: 0 24px;
+  }
 }

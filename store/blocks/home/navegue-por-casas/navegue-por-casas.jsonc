@@ -12,25 +12,95 @@
     "children": ["rich-text#titulo-navegue-por-casas"]
   },
   "rich-text#titulo-navegue-por-casas": {
-    "title": "[Home] - TItulo: Navegue por Casas",
+    "title": "[Home] - Título: Navegue por Casas",
     "props": {
       "blockClass": ["section-title"],
       "text": "Navegue por Casas"
     }
   },
-  "flex-layout.row#listagem-navegue-por-casas": {
-    "title": "[Home] - Listagem de Casas",
+  "slider-layout#navegue-por-casas": {
+    "title": "[Home] - Slider Listagem de Casas",
     "props": {
-      "fullWidth": true,
-      "colSizing": "auto",
-      "blockClass": ["container", "navegue-por-casas"]
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 6,
+        "phone": 4
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "usePagination": false,
+      "blockClass": [
+        "container",
+        "navegue-por-casas"
+      ]
     },
     "children": [
-      "flex-layout.col#navegue-por-casa-1",
-      "flex-layout.col#navegue-por-casa-2",
-      "flex-layout.col#navegue-por-casa-3",
-      "flex-layout.col#navegue-por-casa-4",
-      "flex-layout.col#navegue-por-casa-5",
+      "flex-layout.row#navegue-por-casa-1",
+      "flex-layout.row#navegue-por-casa-2",
+      "flex-layout.row#navegue-por-casa-3",
+      "flex-layout.row#navegue-por-casa-4",
+      "flex-layout.row#navegue-por-casa-5",
+      "flex-layout.row#navegue-por-casa-6"
+    ]
+  },
+  "flex-layout.row#navegue-por-casa-1": {
+    "props": {
+      "blockClass": [
+        "navegue-por-casas"
+      ]
+    },
+    "children": [
+      "flex-layout.col#navegue-por-casa-1"
+    ]
+  },
+  "flex-layout.row#navegue-por-casa-2": {
+    "props": {
+      "blockClass": [
+        "navegue-por-casas"
+      ]
+    },
+    "children": [
+      "flex-layout.col#navegue-por-casa-2"
+    ]
+  },
+  "flex-layout.row#navegue-por-casa-3": {
+    "props": {
+      "blockClass": [
+        "navegue-por-casas"
+      ]
+    },
+    "children": [
+      "flex-layout.col#navegue-por-casa-3"
+    ]
+  },
+  "flex-layout.row#navegue-por-casa-4": {
+    "props": {
+      "blockClass": [
+        "navegue-por-casas"
+      ]
+    },
+    "children": [
+      "flex-layout.col#navegue-por-casa-4"
+    ]
+  },
+  "flex-layout.row#navegue-por-casa-5": {
+    "props": {
+      "blockClass": [
+        "navegue-por-casas"
+      ]
+    },
+    "children": [
+      "flex-layout.col#navegue-por-casa-5"
+    ]
+  },
+  "flex-layout.row#navegue-por-casa-6": {
+    "props": {
+      "blockClass": [
+        "navegue-por-casas"
+      ]
+    },
+    "children": [
       "flex-layout.col#navegue-por-casa-6"
     ]
   },

@@ -1,0 +1,13 @@
+.flexRow--titulo-navegue-por-casas {
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.flexRow--navegue-por-casas {
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
+.flexRowContent--navegue-por-casas .stretchChildrenWidth {
+    margin: 0 8px;
+}

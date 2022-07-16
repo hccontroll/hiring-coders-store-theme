@@ -1,0 +1,33 @@
+.imageElement--logo-navegue-por-casas {
+    outline: 0.5px solid #E9E9E9;
+    border-radius: 100px;
+}
+
+.imageElement--logo-navegue-por-casas:hover {
+    cursor: pointer;
+}
+
+.imageElement--logo-navegue-por-casas--controll:hover {
+    outline: 8px solid #D9004F;
+}
+
+.imageElement--logo-navegue-por-casas--travellog:hover {
+    outline: 8px solid #C500B1;
+}
+
+.imageElement--logo-navegue-por-casas--dreamscape:hover {
+    outline: 8px solid #00BDBC;
+}
+
+.imageElement--logo-navegue-por-casas--bitsized:hover {
+    outline: 8px solid #4917BC;
+}
+
+.imageElement--logo-navegue-por-casas--atmosphere:hover {
+    outline: 8px solid #002E94;
+}
+
+.imageElement--logo-navegue-por-casas--speedware:hover {
+    outline: 8px solid #FF9600;
+}
+

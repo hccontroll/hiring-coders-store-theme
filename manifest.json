@@ -3,6 +3,7 @@
   "name": "hiring-coders-store-theme",
   "version": "5.1.0",
   "builders": {
+    "assets": "0.x",
     "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",

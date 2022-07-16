@@ -1,0 +1,7 @@
+.menuItem:hover{
+  cursor: pointer;
+  background: #ff8bd9;
+}
+.styledLinkContent{
+  color: #fff;
+}

@@ -1,0 +1,14 @@
+.logoContainer {
+  padding: 0;
+}
+.logoImage{
+  display: block;
+  object-fit: contain;
+  height: 40px;
+}
+@media screen and (min-width: 1200px){
+  .searchBarContainer{
+    min-width: 500px;
+    flex-grow: 2;
+  }
+}

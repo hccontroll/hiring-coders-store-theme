@@ -1,0 +1,16 @@
+.drawerContent{
+  background: #142032;
+  min-height: 100vh;
+}
+.closeIconButton{
+  color: #fff;
+}
+
+.childrenContainer :global(.vtex-menu-2-x-menuContainerNav){
+  width: 100%;
+}
+.childrenContainer :global(.vtex-menu-2-x-styledLinkContent){
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+}

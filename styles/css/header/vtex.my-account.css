@@ -1,0 +1,16 @@
+:global(.vtex-login-2-x-container .vtex-button):hover,
+:global(.vtex-minicart-2-x-minicartContainer .vtex-button):hover,
+:global(.vtex-login-2-x-container .vtex-button):focus,
+:global(.vtex-minicart-2-x-minicartContainer .vtex-button):focus,
+:global(.vtex-login-2-x-container .vtex-button):active,
+:global(.vtex-minicart-2-x-minicartContainer .vtex-button):active{
+  background: #ff8bd9;
+  color: #fff!important;
+}
+:global(.vtex-login-2-x-profile),
+:global(.vtex-minicart-2-x-minicartIconContainer){
+  color: #fff;
+}
+:global(.vtex-store-drawer-0-x-openIconContainer){
+  color: #fff;
+}

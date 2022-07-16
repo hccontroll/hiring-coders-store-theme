@@ -1,0 +1,13 @@
+.flexRowContent--main-header,
+.flexRowContent--main-header-mobile,
+.flexCol--category-menu{
+  justify-content: space-around;
+  max-width: 80em;
+  background: #142032!important;
+}
+.flexRowContent--main-header,
+.flexRowContent--menu-desktop{
+  background-color: #142032;
+  color: #fff;
+  margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+.container :global(.vtex-button .profile){
+  color: #fff!important;
+}
+.container :global(.vtex-button:hover),
+.container :global(.vtex-button:active),
+.container :global(.vtex-button:focus),{
+  background: transparent;
+  text-decoration: underline;
+  opacity: 0.7;
+}

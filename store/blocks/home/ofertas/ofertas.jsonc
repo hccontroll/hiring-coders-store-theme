@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#titulo-ofertas": {
+    "title": "[Home] - Titulo Seção: Ofertas",
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": ["container", "section-title"]
+    },
+    "children": ["rich-text#titulo-ofertas"]
+  },
+  "rich-text#titulo-ofertas": {
+    "title": "[Home] - Título: ofertas",
+    "props": {
+      "blockClass": ["section-title"],
+      "text": "Ofertas"
+    }
+  }
+}

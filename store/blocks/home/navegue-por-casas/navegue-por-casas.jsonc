@@ -7,7 +7,7 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "blockClass": ["container", "titulo-navegue-por-casas"]
+      "blockClass": ["container", "section-title"]
     },
     "children": ["rich-text#titulo-navegue-por-casas"]
   },

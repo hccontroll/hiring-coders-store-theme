@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#titulo-novidades": {
+    "title": "[Home] - Titulo Seção: Novidades",
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": ["container", "section-title"]
+    },
+    "children": ["rich-text#titulo-novidades"]
+  },
+  "rich-text#titulo-novidades": {
+    "title": "[Home] - Título: Novidades",
+    "props": {
+      "blockClass": ["section-title"],
+      "text": "Novidades"
+    }
+  }
+}

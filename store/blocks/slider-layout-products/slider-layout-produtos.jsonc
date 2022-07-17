@@ -1,0 +1,18 @@
+{
+  "slider-layout#produtos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "fullWidth": false,
+      "blockClass": [
+        "container"
+      ]
+    }
+  }
+}

@@ -17,5 +17,15 @@
       "blockClass": ["section-title"],
       "text": "Ofertas"
     }
+  },
+  "flex-layout.row#ofertas": {
+    "children": ["list-context.product-list#ofertas"]
+  },
+  "list-context.product-list#ofertas": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#produtos"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
   }
 }

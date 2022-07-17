@@ -7,7 +7,9 @@
       "flex-layout.row#titulo-navegue-por-casas",
       "slider-layout#navegue-por-casas",
       "flex-layout.row#titulo-ofertas",
-      "flex-layout.row#titulo-novidades"
+      "flex-layout.row#ofertas",
+      "flex-layout.row#titulo-novidades",
+      "flex-layout.row#novidades"
     ]
   },
 
@@ -45,28 +47,6 @@
     "props": {
       "text": "## Summer",
       "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
-  },
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
     }
   },
 

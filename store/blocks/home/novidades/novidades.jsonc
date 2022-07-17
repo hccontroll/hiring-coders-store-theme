@@ -17,5 +17,15 @@
       "blockClass": ["section-title"],
       "text": "Novidades"
     }
+  },
+  "flex-layout.row#novidades": {
+    "children": ["list-context.product-list#novidades"]
+  },
+  "list-context.product-list#novidades": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#produtos"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC"
+    }
   }
 }

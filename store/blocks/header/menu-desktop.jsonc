@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#menu-desktop": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "container"
+      ]
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  }
+}

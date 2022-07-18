@@ -24,8 +24,7 @@
       "image#banner1": {
         "props": {
           "blockClass": "banner",
-          "src": "assets/images/banner/banner1-mobile.jpg",
-          "mobileImage": "assets/images/banner/banner1-mobile.jpg"
+          "src": "assets/images/banner/banner1.jpg"
         }
       },
       "image#banner2": {

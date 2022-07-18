@@ -11,6 +11,7 @@
             "tablet": 1,
             "phone": 1
           },
+        "fullWidth":"true",  
         "centerMode": "disabled",
         "showNavigationArrows": "always",
         "showPaginationDots": "always",
@@ -23,7 +24,8 @@
       "image#banner1": {
         "props": {
           "blockClass": "banner",
-          "src": "assets/images/banner/banner1.jpg"
+          "src": "assets/images/banner/banner1-mobile.jpg",
+          "mobileImage": "assets/images/banner/banner1-mobile.jpg"
         }
       },
       "image#banner2": {

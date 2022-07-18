@@ -1,88 +1,87 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true,
-      "items": [
-        {
-          "id": "menu-item-category-electronics",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "categoryId": 153,
-            "type": "internal",
-            "href": "/electronics/",
-            "noFollow": true,
-            "tagTitle": "Electronics",
-            "text": "Electronics"
-          }
-        },
-        {
-          "id": "menu-item-category-2",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/category-2/",
-            "noFollow": false,
-            "tagTitle": "Categoria 2",
-            "text": "Categoria 2"
-          }
-        },
-        {
-          "id": "menu-item-category-3",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/category-3/",
-            "noFollow": true,
-            "tagTitle": "Categoria 3",
-            "text": "Categoria 3"
-          }
-        },
-        {
-          "id": "menu-item-category-4",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/category-4/",
-            "noFollow": true,
-            "tagTitle": "Categoria 4",
-            "text": "Categoria 4"
-          }
-        },
-        {
-          "id": "menu-item-category-5",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/category-5/",
-            "noFollow": true,
-            "tagTitle": "Categoria 5",
-            "text": "Categoria 5"
-          }
-        },
-        {
-          "id": "menu-item-category-6",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/category-6/",
-            "noFollow": true,
-            "tagTitle": "Categoria 6",
-            "text": "Categoria 6"
-          }
-        }
-      ]
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-1",
+      "menu-item#category-2",
+      "menu-item#category-3",
+      "menu-item#category-4",
+      "menu-item#category-5",
+      "menu-item#category-6"
+    ]
+  },
+  "menu-item#category-1": {
+    "props": {
+      "id": "menu-item-category-1",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId":"21",
+        "text":"Camisetas"
+      }
+    }
+  },
+  "menu-item#category-2": {
+    "props": {
+      "id": "menu-item-category-2",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId":"19",
+        "text":"Canecas"
+      }
+    }
+  },
+  "menu-item#category-3": {
+    "props": {
+      "id": "menu-item-category-3",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId":"22",
+        "text":"Copos"
+      }
+    }
+  },
+  "menu-item#category-4": {
+    "props": {
+      "id": "menu-item-category-4",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId":"23",
+        "text":"Mochilas"
+      }
+    }
+  },
+  "menu-item#category-5": {
+    "props": {
+      "id": "menu-item-category-5",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId":"24",
+        "text":"Moletons"
+      }
+    }
+  },
+  "menu-item#category-6": {
+    "props": {
+      "id": "menu-item-category-6",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId":"25",
+        "text":"Mousepad"
+      }
     }
   },
   "vtex.menu@2.x:submenu#more": {

@@ -29,5 +29,25 @@
       "fullWidth": true
     },
     "children": ["search-bar"]
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo.svg",
+      "width": "77.5",
+      "height": "27.5"
+    }
   }
 }

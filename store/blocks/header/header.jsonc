@@ -78,50 +78,6 @@
       "height": "12"
     }
   },
-  "header-layout.mobile#2": {
-    "children": ["sticky-layout#1-mobile"]
-  },
-  "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
-  },
-  "flex-layout.row#1-mobile": {
-    "children": [
-      "drawer",
-      "flex-layout.col#spacer",
-      "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2#default"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": ["menu#drawer"]
-  },
-
-  "menu#drawer": {
-    "children": [
-      "vtex.menu@2.x:menu#category-menu"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-
-  "logo#mobile": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/logo.svg",
-      "width": "77.5",
-      "height": "27.5"
-    }
-  },
   "search-bar" : {
     "props": {
       "placeholder": "O que você está buscando?",

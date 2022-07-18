@@ -27,6 +27,7 @@
 
   "social-networks": {
     "props": {
+      "showInColor": false,
       "socialNetworks": [
         {
           "name": "Facebook",

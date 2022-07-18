@@ -7,10 +7,16 @@
   background: #ff8bd9;
   color: #fff!important;
 }
+:global(.vtex-login-2-x-container .vtex-button){
+  padding-bottom: 10px;
+}
 :global(.vtex-login-2-x-profile),
 :global(.vtex-minicart-2-x-minicartIconContainer){
   color: #fff;
 }
 :global(.vtex-store-drawer-0-x-openIconContainer){
   color: #fff;
+}
+:global(.vtex-login-2-x-label){
+  color: #fff!important;
 }

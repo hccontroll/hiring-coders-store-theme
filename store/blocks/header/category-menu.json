@@ -15,90 +15,72 @@
   "menu-item#category-1": {
     "props": {
       "id": "menu-item-category-1",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/category-1/",
-        "noFollow": false,
-        "tagTitle": "Categoria 1",
-        "text": "Categoria 1"
+        "categoryId":"21",
+        "text":"Camisetas"
       }
     }
   },
   "menu-item#category-2": {
     "props": {
       "id": "menu-item-category-2",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/category-2/",
-        "noFollow": false,
-        "tagTitle": "Categoria 2",
-        "text": "Categoria 2"
+        "categoryId":"19",
+        "text":"Canecas"
       }
     }
   },
   "menu-item#category-3": {
     "props": {
       "id": "menu-item-category-3",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/category-3/",
-        "noFollow": true,
-        "tagTitle": "Categoria 3",
-        "text": "Categoria 3"
+        "categoryId":"22",
+        "text":"Copos"
       }
     }
   },
   "menu-item#category-4": {
     "props": {
       "id": "menu-item-category-4",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/category-4/",
-        "noFollow": true,
-        "tagTitle": "Categoria 4",
-        "text": "Categoria 4"
+        "categoryId":"23",
+        "text":"Mochilas"
       }
     }
   },
   "menu-item#category-5": {
     "props": {
       "id": "menu-item-category-5",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/category-5/",
-        "noFollow": true,
-        "tagTitle": "Categoria 5",
-        "text": "Categoria 5"
+        "categoryId":"24",
+        "text":"Moletons"
       }
     }
   },
   "menu-item#category-6": {
     "props": {
       "id": "menu-item-category-6",
-      "type": "custom",
+      "type": "category",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/category-6/",
-        "noFollow": true,
-        "tagTitle": "Categoria 6",
-        "text": "Categoria 6"
+        "categoryId":"25",
+        "text":"Mousepad"
       }
     }
   },

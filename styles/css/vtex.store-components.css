@@ -61,6 +61,12 @@
   margin-bottom: 20px;
 }
 
+.imageElement--banner{
+  width: 100%;
+  height: 424px;
+  margin: 10px;
+}
+
 .skuSelectorContainer {
   margin: 1rem 0;
 }

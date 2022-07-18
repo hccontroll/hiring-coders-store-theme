@@ -78,7 +78,7 @@
       "height": "12"
     }
   },
-  "header-layout.mobile": {
+  "header-layout.mobile#2": {
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {

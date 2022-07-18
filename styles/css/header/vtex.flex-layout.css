@@ -1,7 +1,19 @@
+.flexRow--header {
+  background-color: #142032;
+}
+
+.flexRow--header-mobile {
+  padding: 8px 16px 0px 16px;
+}
+
+.flexRowContent--header-mobile {
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
 .flexRowContent--main-header,
 .flexRowContent--main-header-mobile,
 .flexCol--category-menu{
-  justify-content: space-around;
   max-width: 80em;
   background: #142032!important;
 }

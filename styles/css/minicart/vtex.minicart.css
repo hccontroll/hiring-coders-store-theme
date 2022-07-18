@@ -116,7 +116,7 @@
 
 .minicartTitle::before {
   content: "Minha sacola";
-  font-family: "Futura", sans-serif;
+  font-family: "Futura", San Francisco, -apple-system, helvetica, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -145,7 +145,8 @@
 
 .minicartCheckoutButton :global(.vtex-button__label) {
   text-transform: none;
-  font-family: "Futura Md BT";
+  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+    sans-serif;
   font-size: 18px;
 
   transition: all 0.3s ease-in-out;

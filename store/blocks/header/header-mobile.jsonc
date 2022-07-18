@@ -9,6 +9,7 @@
     ]
   },
   "flex-layout.row#header-mobile": {
+    "title": "[Header] - Header Mobile",
     "props": {
       "blockClass": ["header", "header-mobile"],
       "preventHorizontalStretch": true,
@@ -24,6 +25,7 @@
     ]
   },
   "flex-layout.row#search-mobile": {
+    "title": "[Header] - Search Mobile",
     "props": {
       "blockClass": ["header", "header-mobile"],
       "fullWidth": true

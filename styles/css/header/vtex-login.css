@@ -1,4 +1,5 @@
-.container :global(.vtex-button .profile){
+.container :global(.vtex-button .profile),
+.container :global(.vtex-login-2-x-label){
   color: #fff!important;
 }
 .container :global(.vtex-button:hover),

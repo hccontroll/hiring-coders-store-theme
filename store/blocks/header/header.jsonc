@@ -87,6 +87,7 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
+      "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
@@ -105,12 +106,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-1",
-      "menu-item#category-2",
-      "menu-item#category-3",
-      "menu-item#category-4",
-      "menu-item#category-5",
-      "menu-item#category-6"
+      "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
       "orientation": "vertical"
@@ -136,5 +132,23 @@
     "props":{
       "blockClass": "login"
     }
+  },
+  "flex-layout.col#login": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#login"
+    ]
+  },
+  "flex-layout.row#login": {
+    "props": {
+      "blockClass": "login--container"
+    },
+    "children": [
+      "login"
+      // "hiringcoins"
+    ]
   }
 }

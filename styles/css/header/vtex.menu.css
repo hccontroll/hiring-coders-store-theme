@@ -5,3 +5,10 @@
 .styledLinkContent{
   color: #fff;
 }
+
+@media only screen and (max-width: 580px){
+  .menuContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}

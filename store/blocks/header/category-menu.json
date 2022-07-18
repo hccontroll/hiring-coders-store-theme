@@ -1,139 +1,110 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
-    },
-    "children": [
-      "menu-item#category-1",
-      "menu-item#category-2",
-      "menu-item#category-3",
-      "menu-item#category-4",
-      "menu-item#category-5",
-      "menu-item#category-6"
-    ]
-  },
-  "menu-item#category-1": {
-    "props": {
-      "id": "menu-item-category-1",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/category-1/",
-        "noFollow": false,
-        "tagTitle": "Categoria 1",
-        "text": "Categoria 1"
-      }
-    }
-  },
-  "menu-item#category-2": {
-    "props": {
-      "id": "menu-item-category-2",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/category-2/",
-        "noFollow": false,
-        "tagTitle": "Categoria 2",
-        "text": "Categoria 2"
-      }
-    }
-  },
-  "menu-item#category-3": {
-    "props": {
-      "id": "menu-item-category-3",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/category-3/",
-        "noFollow": true,
-        "tagTitle": "Categoria 3",
-        "text": "Categoria 3"
-      }
-    }
-  },
-  "menu-item#category-4": {
-    "props": {
-      "id": "menu-item-category-4",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/category-4/",
-        "noFollow": true,
-        "tagTitle": "Categoria 4",
-        "text": "Categoria 4"
-      }
-    }
-  },
-  "menu-item#category-5": {
-    "props": {
-      "id": "menu-item-category-5",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/category-5/",
-        "noFollow": true,
-        "tagTitle": "Categoria 5",
-        "text": "Categoria 5"
-      }
-    }
-  },
-  "menu-item#category-6": {
-    "props": {
-      "id": "menu-item-category-6",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/category-6/",
-        "noFollow": true,
-        "tagTitle": "Categoria 6",
-        "text": "Categoria 6"
-      }
+      "experimentalOptimizeRendering": true,
+      "items": [
+        {
+          "id": "menu-item-category-electronics",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 153,
+            "type": "internal",
+            "href": "/electronics/",
+            "noFollow": true,
+            "tagTitle": "Electronics",
+            "text": "Electronics"
+          }
+        },
+        {
+          "id": "menu-item-category-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/category-2/",
+            "noFollow": false,
+            "tagTitle": "Categoria 2",
+            "text": "Categoria 2"
+          }
+        },
+        {
+          "id": "menu-item-category-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/category-3/",
+            "noFollow": true,
+            "tagTitle": "Categoria 3",
+            "text": "Categoria 3"
+          }
+        },
+        {
+          "id": "menu-item-category-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/category-4/",
+            "noFollow": true,
+            "tagTitle": "Categoria 4",
+            "text": "Categoria 4"
+          }
+        },
+        {
+          "id": "menu-item-category-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/category-5/",
+            "noFollow": true,
+            "tagTitle": "Categoria 5",
+            "text": "Categoria 5"
+          }
+        },
+        {
+          "id": "menu-item-category-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/category-6/",
+            "noFollow": true,
+            "tagTitle": "Categoria 6",
+            "text": "Categoria 6"
+          }
+        }
+      ]
     }
   },
   "vtex.menu@2.x:submenu#more": {
     "props": {
       "width": "100%"
     },
-    "children": [
-      "flex-layout.row#menu-more"
-    ]
+    "children": ["flex-layout.row#menu-more"]
   },
   "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
-    ]
+    "children": ["flex-layout.col#menu-more-1", "flex-layout.col#menu-more-2"]
   },
   "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
+    "children": ["vtex.menu@2.x:menu#more"]
   },
   "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
+    "children": ["info-card#home"]
   },
   "vtex.menu@2.x:menu#more": {
     "props": {
       "orientation": "vertical"
     },
-    "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
-    ]
+    "children": ["menu-item#about-us", "menu-item#faq"]
   },
   "menu-item#about-us": {
     "props": {

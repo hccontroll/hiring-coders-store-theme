@@ -88,34 +88,22 @@
     "props": {
       "width": "100%"
     },
-    "children": [
-      "flex-layout.row#menu-more"
-    ]
+    "children": ["flex-layout.row#menu-more"]
   },
   "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
-    ]
+    "children": ["flex-layout.col#menu-more-1", "flex-layout.col#menu-more-2"]
   },
   "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
+    "children": ["vtex.menu@2.x:menu#more"]
   },
   "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
+    "children": ["info-card#home"]
   },
   "vtex.menu@2.x:menu#more": {
     "props": {
       "orientation": "vertical"
     },
-    "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
-    ]
+    "children": ["menu-item#about-us", "menu-item#faq"]
   },
   "menu-item#about-us": {
     "props": {

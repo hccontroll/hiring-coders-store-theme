@@ -3,7 +3,8 @@
     "props": {
       "fullWidth": true,
       "blockClass": [
-        "container"
+        "container",
+        "menu-desktop"
       ]
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]

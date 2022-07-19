@@ -5,57 +5,11 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
-  "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
-  },
+
 
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
-    }
-  },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": [
-      "flex-layout.row#desktop",
-      "flex-layout.row#menu-desktop"
-    ]
-  },
-  "flex-layout.row#desktop": {
-    "props": {
-      "blockClass": "main-header",
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2#default"
-    ]
-  },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo#desktop"]
-  },
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/logo.svg",
-      "width": "180",
-      "height": "12"
     }
   },
   "search-bar" : {

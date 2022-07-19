@@ -1,14 +1,16 @@
 .logoContainer {
   padding: 0;
 }
-.logoImage{
+
+.logoImage--logo {
   display: block;
   object-fit: contain;
-  height: 40px;
 }
-@media screen and (min-width: 1200px){
-  .searchBarContainer{
-    min-width: 500px;
-    flex-grow: 2;
-  }
+
+.logoImage--logo-desktop {
+  height: 50px;
+}
+
+.logoImage--logo-mobile{
+  height: 40px;
 }

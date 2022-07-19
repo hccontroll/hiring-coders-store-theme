@@ -1,0 +1,55 @@
+{
+  "header-layout.mobile": {
+    "children": ["sticky-layout#header-mobile"]
+  },
+  "sticky-layout#header-mobile": {
+    "children": [
+      "flex-layout.row#header-mobile",
+      "flex-layout.row#search-mobile"
+    ]
+  },
+  "flex-layout.row#header-mobile": {
+    "title": "[Header] - Header Mobile",
+    "props": {
+      "blockClass": ["header", "header-mobile"],
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": [
+      "drawer",
+      "flex-layout.col#spacer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "minicart.v2#default"
+    ]
+  },
+  "flex-layout.row#search-mobile": {
+    "title": "[Header] - Search Mobile",
+    "props": {
+      "blockClass": ["header", "header-mobile"],
+      "fullWidth": true
+    },
+    "children": ["search-bar"]
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo.svg",
+      "width": "77.5",
+      "height": "27.5"
+    }
+  }
+}

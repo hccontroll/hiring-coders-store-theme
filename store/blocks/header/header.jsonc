@@ -5,16 +5,12 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
-
-
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
   "search-bar" : {
     "props": {
-      "placeholder": "O que você está buscando?",
+      "blockClass": [
+        "search-bar"
+      ],
+      "placeholder": "O que você está procurando?",
       "maxWidth": "100%"
     }
   },

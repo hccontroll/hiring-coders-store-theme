@@ -25,7 +25,9 @@
   "flex-layout.col#logo-desktop": {
     "props": {
       "width": "25%",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["logo-desktop"]
     },
     "children": ["logo#desktop"]
   },
@@ -37,21 +39,22 @@
       "url": "assets/images/logo/logo.svg",
       "width": "180",
       "height": "50",
-      "blockClass": [
-        "logo",
-        "logo-desktop"
-      ]
+      "blockClass": ["logo", "logo-desktop"]
     }
   },
   "flex-layout.col#search-desktop": {
     "props": {
-      "width": "40%"
+      "width": "40%",
+      "verticalAlign": "center"
     },
     "children": ["search-bar"]
   },
   "flex-layout.col#login-minicart-desktop": {
     "props": {
-      "width": "25%"
+      "width": "25%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["login-minicart-desktop"]
     },
     "children": ["flex-layout.row#login-minicart-desktop"]
   },

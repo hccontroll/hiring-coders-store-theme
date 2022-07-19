@@ -27,8 +27,13 @@
   padding: 0px 16px;
 }
 
-.flexRow--login--container{
-  display: flex!important;
+.flexRow--login--container {
+  display: flex !important;
   align-items: center;
   position: relative;
+}
+
+.flexCol--logo-desktop,
+.flexCol--login-minicart-desktop {
+  justify-content: center;
 }

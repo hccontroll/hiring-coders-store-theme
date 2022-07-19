@@ -1,0 +1,42 @@
+{
+    "slider-layout#banner": {
+        "children": [
+          "image#banner1",
+          "image#banner2",
+          "image#banner3"
+        ],
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+        "fullWidth":"true",  
+        "centerMode": "disabled",
+        "showNavigationArrows": "always",
+        "showPaginationDots": "always",
+          "autoplay": {
+            "timeout": 7000,
+            "stopOnHover": true
+          }
+        }
+      },
+      "image#banner1": {
+        "props": {
+          "blockClass": "banner",
+          "src": "assets/images/banner/banner1.jpg"
+        }
+      },
+      "image#banner2": {
+        "props": {
+          "src": "assets/images/banner/banner2.jpg",
+          "blockClass": "banner"
+        }
+      },
+      "image#banner3": {
+        "props": {
+          "src": "assets/images/banner/banner3.jpg",
+          "blockClass": "banner"
+        }
+      }
+}

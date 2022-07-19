@@ -3,6 +3,16 @@
   margin: 0 auto;
 }
 
+.sliderLayoutContainer--section-slider {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 992px) {
+  .sliderLayoutContainer--section-slider {
+    margin-bottom: 80px;
+  }
+}
+
 .paginationDotsContainer {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;

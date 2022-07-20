@@ -19,6 +19,12 @@
   margin-bottom: 1rem;
 }
 
+.installmentsNumber,
+.installmentValue{
+ color: #FF5604;
+ font-weight: 700;
+}
+
 .savings {
   font-weight: 500;
   color: #79B03A;

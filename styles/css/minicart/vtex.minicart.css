@@ -71,12 +71,13 @@
 .minicartQuantityBadge {
   font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
     sans-serif;
-  background: #b11d2f;
+  background: #FF5604;
   border-radius: 50%;
   width: 14px;
   height: 14px;
   top: -6px;
   right: -2px;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 992px) {

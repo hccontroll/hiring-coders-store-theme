@@ -2,6 +2,10 @@
   cursor: pointer;
 }
 
+.styledLinkContainer{
+  padding-bottom: 1.5rem;
+}
+
 .styledLinkContent {
   font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
     sans-serif;

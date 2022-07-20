@@ -14,28 +14,34 @@
 }
 
 .infoCardContainer--info-card-casas1 {
-  width: 80%;
+  width: 100%;
   margin: auto;
   background-color: #ccced8;
-  padding: 0px;
-  object-fit: cover;
   padding: 15px;
-  color: #142032;
-}
+  }
 
 .infoCardContainer--info-card-casas2 {
   width: 80%;
   margin: auto;
-  padding: 0px;
-  object-fit: cover;
   padding: 15px;
-  color: #142032;
-}
+  }
+
+  .infoCardHeadline{
+    color: #142032;
+    font-family: Futura Bold;
+  }
+
+  .infoCardSubhead{
+    color: #142032;
+    font-weight: 400px;
+    font-size: 18px;
+    font-family: Futura Md BT,San Francisco,-apple-system,helvetica,sans-serif;
+  }
 
 .infoCardImage--info-card-casas1 {
-  display: flex;
-  margin: auto;
-  padding: 0px;
+  display: block;
+  margin-left: auto;
+  padding: 15px;
   
 }
 

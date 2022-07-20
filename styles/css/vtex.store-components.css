@@ -126,3 +126,17 @@
   font-weight: 700;
 }
 
+.vtex-input__label{
+  font-weight: 700;
+}
+
+.quantitySelectorTitle{
+  font-weight: 700;
+  font-size: 14px;
+  color: #727273;
+}
+
+.shareLabel{
+  font-weight: 700;
+  margin-top: 20px;
+}

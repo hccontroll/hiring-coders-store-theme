@@ -44,3 +44,29 @@
 .vtex-button{
   font-weight: 600;
 }
+
+/*.productNameContainer{
+  font-weight: 700;
+}*/
+
+.productBrand{
+  font-weight: 700;
+  font-size: 18px;
+  color: #142032;
+}
+
+.price_sellingPrice{
+  font-weight: 700px;
+}
+
+.priceContainer{
+  justify-content: flex-start;
+}
+
+.buyButtonText{
+  font-weight: 700;
+}
+
+.information{
+  justify-content: flex-start;
+}

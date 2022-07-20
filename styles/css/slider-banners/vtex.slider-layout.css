@@ -1,0 +1,17 @@
+.slide--slider-banners {
+    padding: 16px;
+}
+
+.imageElement--slider-banners {
+    border-radius: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+    .slide--slider-banners {
+        padding: 0;
+    }
+
+    .imageElement--slider-banners {
+        border-radius: 0;
+    }
+}

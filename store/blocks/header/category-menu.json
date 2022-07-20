@@ -1,153 +1,90 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
+    "title": "[Header] - Menu",
     "props": {
-      "experimentalOptimizeRendering": true
-    },
-    "children": [
-      "menu-item#category-1",
-      "menu-item#category-2",
-      "menu-item#category-3",
-      "menu-item#category-4",
-      "menu-item#category-5",
-      "menu-item#category-6"
-    ]
-  },
-  "menu-item#category-1": {
-    "props": {
-      "id": "menu-item-category-1",
-      "type": "category",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "categoryId":"21",
-        "text":"Camisetas"
-      }
-    }
-  },
-  "menu-item#category-2": {
-    "props": {
-      "id": "menu-item-category-2",
-      "type": "category",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "categoryId":"19",
-        "text":"Canecas"
-      }
-    }
-  },
-  "menu-item#category-3": {
-    "props": {
-      "id": "menu-item-category-3",
-      "type": "category",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "categoryId":"22",
-        "text":"Copos"
-      }
-    }
-  },
-  "menu-item#category-4": {
-    "props": {
-      "id": "menu-item-category-4",
-      "type": "category",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "categoryId":"23",
-        "text":"Mochilas"
-      }
-    }
-  },
-  "menu-item#category-5": {
-    "props": {
-      "id": "menu-item-category-5",
-      "type": "category",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "categoryId":"24",
-        "text":"Moletons"
-      }
-    }
-  },
-  "menu-item#category-6": {
-    "props": {
-      "id": "menu-item-category-6",
-      "type": "category",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "categoryId":"25",
-        "text":"Mousepad"
-      }
-    }
-  },
-  "vtex.menu@2.x:submenu#more": {
-    "props": {
-      "width": "100%"
-    },
-    "children": ["flex-layout.row#menu-more"]
-  },
-  "flex-layout.row#menu-more": {
-    "children": ["flex-layout.col#menu-more-1", "flex-layout.col#menu-more-2"]
-  },
-  "flex-layout.col#menu-more-1": {
-    "children": ["vtex.menu@2.x:menu#more"]
-  },
-  "flex-layout.col#menu-more-2": {
-    "children": ["info-card#home"]
-  },
-  "vtex.menu@2.x:menu#more": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": ["menu-item#about-us", "menu-item#faq"]
-  },
-  "menu-item#about-us": {
-    "props": {
-      "id": "menu-item-about-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/about-us",
-        "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
-      }
-    }
-  },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
-      }
-    }
-  },
-  "menu-item#contact-us": {
-    "props": {
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
-      }
+      "experimentalOptimizeRendering": true,
+      "items": [
+        {
+          "id": "menu-item-category-1",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "21",
+            "text": "Camisetas"
+          }
+        },
+        {
+          "id": "menu-item-category-2",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "19",
+            "text": "Canecas"
+          }
+        },
+        {
+          "id": "menu-item-category-3",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "22",
+            "text": "Copos"
+          }
+        },
+        {
+          "id": "menu-item-category-4",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "23",
+            "text": "Mochilas"
+          }
+        },
+        {
+          "id": "menu-item-category-5",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "24",
+            "text": "Moletons"
+          }
+        },
+        {
+          "id": "menu-item-category-6",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "25",
+            "text": "Mousepad"
+          }
+        },
+        {
+          "id": "menu-item-category-7",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "26",
+            "text": "Hats"
+          }
+        },
+        {
+          "id": "menu-item-category-7",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "27",
+            "text": "Notes"
+          }
+        }
+      ]
     }
   }
 }

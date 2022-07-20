@@ -1,0 +1,86 @@
+{
+  "header-layout.desktop": {
+    "children": ["sticky-layout#desktop"]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#header-desktop",
+      "flex-layout.row#menu-desktop"
+    ]
+  },
+  "flex-layout.row#header-desktop": {
+    "title": "[Header] - Header Desktop",
+    "props": {
+      "blockClass": ["container", "header-desktop"]
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#search-desktop",
+      "flex-layout.col#login-minicart-desktop"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "width": "25%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["logo-desktop"]
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "title": "[Header] - Logo Desktop",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/logo/logo.svg",
+      "width": "180",
+      "height": "50",
+      "blockClass": ["logo", "logo-desktop"]
+    }
+  },
+  "flex-layout.col#search-desktop": {
+    "props": {
+      "width": "35%",
+      "verticalAlign": "center"
+    },
+    "children": ["search-bar"]
+  },
+  "flex-layout.col#login-minicart-desktop": {
+    "props": {
+      "width": "25%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["login-minicart-desktop"]
+    },
+    "children": ["flex-layout.row#login-minicart-desktop"]
+  },
+  "flex-layout.row#login-minicart-desktop": {
+    "props": {
+      "blockClass": [
+        "login-minicart-desktop"
+      ],
+      "horizontalAlign": "between",
+      "colSizing": "auto",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.col#login-container",
+      "flex-layout.col#minicart-desktop"
+    ]
+  },
+  "flex-layout.col#login-container": {
+    "props": {
+      "blockClass": [
+        "login-container"
+      ]
+    },
+    "children": ["login", "hiringcoins"]
+  },
+  "flex-layout.col#minicart-desktop": {
+    "children": ["minicart.v2#default"]
+  }
+}

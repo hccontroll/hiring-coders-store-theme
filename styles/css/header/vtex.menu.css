@@ -1,14 +1,40 @@
-.menuItem:hover{
+.menuItem:hover {
   cursor: pointer;
-  background: #ff8bd9;
-}
-.styledLinkContent{
-  color: #fff;
 }
 
-@media only screen and (max-width: 580px){
-  .menuContainer{
-    display: flex;
+.styledLinkContainer{
+  padding-bottom: 1.5rem;
+}
+
+.styledLinkContent {
+  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+    sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuItem:hover .styledLink {
+  opacity: 0.7;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1024px) {
+  .menuContainer {
     flex-direction: column;
+  }
+
+  .menuItem {
+    padding: 8px 0;
   }
 }

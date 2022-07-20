@@ -1,0 +1,58 @@
+{
+  "header-layout.mobile": {
+    "children": ["sticky-layout#header-mobile"]
+  },
+  "sticky-layout#header-mobile": {
+    "children": [
+      "flex-layout.row#header-mobile",
+      "flex-layout.row#search-mobile"
+    ]
+  },
+  "flex-layout.row#header-mobile": {
+    "title": "[Header] - Header Mobile",
+    "props": {
+      "blockClass": ["header", "header-mobile"],
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "children": ["drawer", "logo#mobile", "minicart.v2#default"]
+  },
+  "flex-layout.row#search-mobile": {
+    "title": "[Header] - Search Mobile",
+    "props": {
+      "blockClass": ["header", "search-mobile"],
+      "fullWidth": true
+    },
+    "children": ["search-bar"]
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": ["flex-layout.col#login-container-mobile", "vtex.menu@2.x:menu#category-menu"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.col#login-container-mobile": {
+    "props": {
+      "blockClass": [
+        "login-container-mobile"
+      ]
+    },
+    "children": ["login", "hiringcoins"]
+  },
+  "logo#mobile": {
+    "title": "[Header] - Logo Desktop",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/logo/logo.svg",
+      "width": "90",
+      "height": "40",
+      "blockClass": ["logo", "logo-desktop"]
+    }
+  }
+}

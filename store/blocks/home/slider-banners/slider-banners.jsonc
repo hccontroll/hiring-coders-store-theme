@@ -1,0 +1,41 @@
+{
+  "list-context.image-list#banners": {
+    "title": "[Home] Banner principal",
+    "children": ["slider-layout#slider-banners"],
+    "props": {
+      "height": 424,
+      "images": [
+        {
+          "image": "assets/images/banner/hcshop-banner-01.jpg",
+          "mobileImage": "assets/images/banner/hcshop-banner-01-mobile.jpg"
+        },
+        {
+          "image": "assets/images/banner/hcshop-banner-02.jpg",
+          "mobileImage": "assets/images/banner/hcshop-banner-02-mobile.jpg"
+        },
+        {
+          "image": "assets/images/banner/hcshop-banner-03.jpg",
+          "mobileImage": "assets/images/banner/hcshop-banner-03-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-banners": {
+    "title": "[Home] Slider Banner principal",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "blockClass": ["slider-banners"]
+    }
+  }
+}

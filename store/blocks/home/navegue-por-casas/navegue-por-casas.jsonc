@@ -30,10 +30,7 @@
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
       "usePagination": false,
-      "blockClass": [
-        "container",
-        "navegue-por-casas"
-      ]
+      "blockClass": ["container", "navegue-por-casas"]
     },
     "children": [
       "flex-layout.row#navegue-por-casa-1",
@@ -46,63 +43,39 @@
   },
   "flex-layout.row#navegue-por-casa-1": {
     "props": {
-      "blockClass": [
-        "navegue-por-casas"
-      ]
+      "blockClass": ["navegue-por-casas"]
     },
-    "children": [
-      "flex-layout.col#navegue-por-casa-1"
-    ]
+    "children": ["flex-layout.col#navegue-por-casa-1"]
   },
   "flex-layout.row#navegue-por-casa-2": {
     "props": {
-      "blockClass": [
-        "navegue-por-casas"
-      ]
+      "blockClass": ["navegue-por-casas"]
     },
-    "children": [
-      "flex-layout.col#navegue-por-casa-2"
-    ]
+    "children": ["flex-layout.col#navegue-por-casa-2"]
   },
   "flex-layout.row#navegue-por-casa-3": {
     "props": {
-      "blockClass": [
-        "navegue-por-casas"
-      ]
+      "blockClass": ["navegue-por-casas"]
     },
-    "children": [
-      "flex-layout.col#navegue-por-casa-3"
-    ]
+    "children": ["flex-layout.col#navegue-por-casa-3"]
   },
   "flex-layout.row#navegue-por-casa-4": {
     "props": {
-      "blockClass": [
-        "navegue-por-casas"
-      ]
+      "blockClass": ["navegue-por-casas"]
     },
-    "children": [
-      "flex-layout.col#navegue-por-casa-4"
-    ]
+    "children": ["flex-layout.col#navegue-por-casa-4"]
   },
   "flex-layout.row#navegue-por-casa-5": {
     "props": {
-      "blockClass": [
-        "navegue-por-casas"
-      ]
+      "blockClass": ["navegue-por-casas"]
     },
-    "children": [
-      "flex-layout.col#navegue-por-casa-5"
-    ]
+    "children": ["flex-layout.col#navegue-por-casa-5"]
   },
   "flex-layout.row#navegue-por-casa-6": {
     "props": {
-      "blockClass": [
-        "navegue-por-casas"
-      ]
+      "blockClass": ["navegue-por-casas"]
     },
-    "children": [
-      "flex-layout.col#navegue-por-casa-6"
-    ]
+    "children": ["flex-layout.col#navegue-por-casa-6"]
   },
   "flex-layout.col#navegue-por-casa-1": {
     "title": "[Home] - Navegue por Casa 1",

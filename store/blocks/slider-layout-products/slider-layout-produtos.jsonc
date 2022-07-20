@@ -10,9 +10,7 @@
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "always",
       "fullWidth": false,
-      "blockClass": [
-        "container"
-      ]
+      "blockClass": ["container", "section-slider"]
     }
   }
 }

@@ -25,7 +25,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#produtos"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "collection": "145",
+      "skusFilter": "FIRST_AVAILABLE"
     }
   }
 }

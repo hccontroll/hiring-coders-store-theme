@@ -1,19 +1,57 @@
-.flexRowContent--main-header,
-.flexRowContent--main-header-mobile,
-.flexCol--category-menu{
-  justify-content: space-around;
-  max-width: 80em;
-  background: #142032!important;
-}
-.flexRowContent--main-header,
-.flexRowContent--menu-desktop{
+.flexRow--header {
   background-color: #142032;
-  color: #fff;
+}
+
+.flexRow--header-desktop {
+  padding: 16px;
+}
+
+.flexRowContent--header-desktop {
+  justify-content: space-between;
+}
+
+.flexRowContent--menu-desktop {
+  justify-content: space-around;
+}
+
+.flexRow--header-mobile {
+  padding: 8px 16px 0px 16px;
+}
+
+.flexRowContent--header-mobile {
+  justify-content: space-between;
   margin: 0 auto;
 }
 
-.flexRow--login--container{
-  display: flex!important;
-  align-items: center;
+.flexRow--search-mobile {
+  padding: 0px 16px;
+}
+
+.flexColChild--login-container {
   position: relative;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.flexCol--login-container:hover {
+  opacity: 0.7;
+}
+
+.flexRow--login--container {
+  display: flex !important;
+  align-items: center;
+}
+
+.flexCol--login-container-mobile {
+  position: relative;
+  top: -50px;
+  z-index: 1;
+  width: 80%;
+  margin-left: 20%;
+  margin-bottom: -50px;
+}
+
+.flexCol--logo-desktop,
+.flexCol--login-minicart-desktop {
+  justify-content: center;
 }

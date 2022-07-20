@@ -31,17 +31,20 @@
 }
 
 .savings--summary {
-  background: #8BC34A;
+  background: #142032;
   border-radius: 1000px;
   align-items: center;
   display: flex;
-
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   font-weight: 600;
   vertical-align: baseline;
   color: #FFFFFF;
+}
+
+.savingsValue--summary{
+  margin-left: 5px;
 }
 
 .savings-discount--summary {

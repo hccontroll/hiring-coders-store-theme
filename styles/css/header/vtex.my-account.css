@@ -4,11 +4,12 @@
 :global(.vtex-minicart-2-x-minicartContainer .vtex-button):focus,
 :global(.vtex-login-2-x-container .vtex-button):active,
 :global(.vtex-minicart-2-x-minicartContainer .vtex-button):active{
-  background: #ff8bd9;
+  background: #FF5604;
   color: #fff!important;
+  text-decoration: none !important;
 }
 :global(.vtex-login-2-x-container .vtex-button){
-  padding-bottom: 10px;
+  padding-bottom: 0;
 }
 :global(.vtex-login-2-x-profile),
 :global(.vtex-minicart-2-x-minicartIconContainer){
@@ -19,4 +20,6 @@
 }
 :global(.vtex-login-2-x-label){
   color: #fff!important;
+  padding: 0;
+  text-decoration: underline;
 }

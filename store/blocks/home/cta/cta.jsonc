@@ -29,14 +29,18 @@
   "image#cta-1": {
     "title": "[Home] - CTA 1 - Imagem",
     "props": {
-      "url": "#",
+      "link": {
+        "url": "/Mochilas?map=c"
+      },
       "src": "assets/images/cta/call-to-action-mochila.jpg"
     }
   },
   "image#cta-2": {
     "title": "[Home] - CTA 2 - Imagem",
     "props": {
-      "url": "#",
+      "link": {
+        "url": "/Hats?map=c"
+      },
       "src": "assets/images/cta/call-to-action-hat.jpg"
     }
   }

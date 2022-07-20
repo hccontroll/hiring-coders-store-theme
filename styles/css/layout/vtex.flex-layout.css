@@ -12,6 +12,7 @@
 @media screen and (min-width: 992px) {
   .flexRowContent--container {
     padding: 0 24px;
+    justify-content: center;
   }
 
   .flexRow--section-title {

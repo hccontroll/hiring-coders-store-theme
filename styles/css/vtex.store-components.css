@@ -142,6 +142,17 @@
   color: #727273;
 }
 
-.shippingContainer .vtex-input__label{
+.sellingPrice,
+.sellingPriceValue{
   font-weight: 700;
+  color:#FF5604;
+}
+
+.productImagesThumb{
+  border: 1px solid #909090;
+  width: 45%;
+}
+
+.shippingContainer{
+  width: 35%;
 }

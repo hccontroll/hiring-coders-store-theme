@@ -1,0 +1,10 @@
+.buttonText{
+  font-weight: 600;
+  font-size: 0;
+}
+
+.buttonText::before{
+  content: "Comprar";
+  font-weight: 600;
+  font-size: 16px;
+}

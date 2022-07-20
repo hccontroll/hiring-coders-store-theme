@@ -13,6 +13,13 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .sliderLayoutContainer--section-slider {
+    padding-left: 8px!important;
+    padding-right: 8px!important;
+  }
+}
+
 .paginationDotsContainer {
   margin-top: 0.5rem;
   margin-bottom: 0;

@@ -50,6 +50,12 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .savings--summary  {
+    display: none;
+  }
+}
+
 .savingsValue--summary{
   margin-left: 5px;
 }

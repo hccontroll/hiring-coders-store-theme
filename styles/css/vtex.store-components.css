@@ -156,7 +156,3 @@
 .shippingContainer{
   width: 35%;
 }
-
-.swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: 0;
-}

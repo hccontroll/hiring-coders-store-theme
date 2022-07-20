@@ -4,3 +4,9 @@
   left: 0px;
   margin-left: 0;
 }
+
+@media only screen and (max-width: 1023px) {
+  .container {
+    margin-left: 70px;
+  }
+}

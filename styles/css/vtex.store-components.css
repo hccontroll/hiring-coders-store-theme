@@ -109,11 +109,15 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
+  color: #142032;
   font-weight: bold;
   font-size: 30px;
 }
 
 .image {
   image-rendering: -webkit-optimize-contrast;
+}
+
+.vtex-address-form__postalCode-forgottenURL{
+  color: #FF5604
 }

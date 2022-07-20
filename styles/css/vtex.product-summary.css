@@ -40,3 +40,7 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.vtex-button{
+  font-weight: 600;
+}

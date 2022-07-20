@@ -20,3 +20,26 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+.totalProducts--layout {
+  color: #FF5604;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.totalProductsMessage{
+  color: #979899;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.galleryTitle--layout{
+  color: #142032;
+}
+
+.filterMessage{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #142032;
+}

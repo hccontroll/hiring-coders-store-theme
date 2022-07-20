@@ -63,6 +63,26 @@
             "categoryId": "25",
             "text": "Mousepad"
           }
+        },
+        {
+          "id": "menu-item-category-7",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "26",
+            "text": "Hats"
+          }
+        },
+        {
+          "id": "menu-item-category-7",
+          "type": "category",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "27",
+            "text": "Notes"
+          }
         }
       ]
     }

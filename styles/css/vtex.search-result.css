@@ -1,12 +1,12 @@
 .galleryLayoutOptionButton {
-  background-color: #F0F0F0;
-  color: #3F3F40;
+  background-color: #f0f0f0;
+  color: #3f3f40;
   padding: 0.375rem 0.75rem 0.375rem 0.75rem;
 }
 
 .galleryLayoutOptionButton--selected {
-  background-color: #3F3F40;
-  color: #FFFFFF;
+  background-color: #3f3f40;
+  color: #ffffff;
 }
 
 .galleryLayoutSwitcher {
@@ -14,31 +14,36 @@
   justify-content: center;
   overflow: hidden;
   width: auto !important;
-  align-self: center
+  align-self: center;
 }
 
 .galleryItem--list {
-  border-bottom: 1px #E7E9EE solid;
+  border-bottom: 1px #e7e9ee solid;
 }
 
 .totalProducts--layout {
-  color: #FF5604;
+  color: #ff5604;
   font-size: 25px;
   font-weight: 700;
 }
 
-.totalProductsMessage{
+.totalProductsMessage {
   color: #979899;
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 400;
 }
 
-.galleryTitle--layout{
+.galleryTitle--layout {
   color: #142032;
+  text-transform: uppercase;
+  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+    sans-serif;
+  font-size: 34px;
+  line-height: 36px;
 }
 
-.filterMessage{
+.filterMessage {
   text-transform: uppercase;
   font-weight: 700;
   color: #142032;

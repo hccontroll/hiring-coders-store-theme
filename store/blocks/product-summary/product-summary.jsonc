@@ -49,7 +49,6 @@
       "message": "{highlightName}"
     }
   },
-
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary"
@@ -86,6 +85,13 @@
         "discount"
       ],
       "blockClass": "summary"
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "text": "Comprar",
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button"
     }
   }
 }

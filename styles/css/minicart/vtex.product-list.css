@@ -145,3 +145,16 @@
   padding-right: 2px;
   width: 4rem;
 }
+
+.productImageContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.productImage {
+  object-fit: cover;
+  width: 100%;
+  height: 100%
+}

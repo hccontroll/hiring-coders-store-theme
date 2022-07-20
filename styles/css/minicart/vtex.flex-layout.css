@@ -1,3 +1,13 @@
 .flexRow--minicart-footer {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
 }
+
+.flexRowContent--product-cart-item {
+  height: 124px;
+}
+
+.flexColChild--product-cart-item-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -3,23 +3,18 @@
 :global(.vtex-login-2-x-container .vtex-button):focus,
 :global(.vtex-minicart-2-x-minicartContainer .vtex-button):focus,
 :global(.vtex-login-2-x-container .vtex-button):active,
-:global(.vtex-minicart-2-x-minicartContainer .vtex-button):active{
-  background: #FF5604;
-  color: #fff!important;
+:global(.vtex-minicart-2-x-minicartContainer .vtex-button):active {
+  background: #ff5604;
+  color: #fff !important;
   text-decoration: none !important;
 }
-:global(.vtex-login-2-x-container .vtex-button){
+:global(.vtex-login-2-x-container .vtex-button) {
   padding-bottom: 0;
 }
 :global(.vtex-login-2-x-profile),
-:global(.vtex-minicart-2-x-minicartIconContainer){
+:global(.vtex-minicart-2-x-minicartIconContainer) {
   color: #fff;
 }
-:global(.vtex-store-drawer-0-x-openIconContainer){
+:global(.vtex-store-drawer-0-x-openIconContainer) {
   color: #fff;
-}
-:global(.vtex-login-2-x-label){
-  color: #fff!important;
-  padding: 0;
-  text-decoration: underline;
 }

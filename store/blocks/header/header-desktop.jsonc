@@ -44,7 +44,7 @@
   },
   "flex-layout.col#search-desktop": {
     "props": {
-      "width": "40%",
+      "width": "35%",
       "verticalAlign": "center"
     },
     "children": ["search-bar"]
@@ -59,6 +59,28 @@
     "children": ["flex-layout.row#login-minicart-desktop"]
   },
   "flex-layout.row#login-minicart-desktop": {
-    "children": ["login", "minicart.v2#default"]
+    "props": {
+      "blockClass": [
+        "login-minicart-desktop"
+      ],
+      "horizontalAlign": "between",
+      "colSizing": "auto",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.col#login-container",
+      "flex-layout.col#minicart-desktop"
+    ]
+  },
+  "flex-layout.col#login-container": {
+    "props": {
+      "blockClass": [
+        "login-container"
+      ]
+    },
+    "children": ["login", "hiringcoins"]
+  },
+  "flex-layout.col#minicart-desktop": {
+    "children": ["minicart.v2#default"]
   }
 }

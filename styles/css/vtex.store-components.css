@@ -14,10 +14,29 @@
 }
 
 .infoCardContainer--info-card-casas1 {
+  width: 80%;
   margin: auto;
   background-color: #ccced8;
   padding: 0px;
   object-fit: cover;
+  padding: 15px;
+  color: #142032;
+}
+
+.infoCardContainer--info-card-casas2 {
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  object-fit: cover;
+  padding: 15px;
+  color: #142032;
+}
+
+.infoCardImage--info-card-casas1 {
+  display: flex;
+  margin: auto;
+  padding: 0px;
+  
 }
 
 .infoCardImageContainer--info-card-right {

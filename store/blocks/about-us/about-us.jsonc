@@ -1,8 +1,39 @@
 {
   "store.custom#about-us": {
     "blocks": [
-      "flex-layout.row#about-us"
+      "slider-layout#about-us",
+      "flex-layout.row#about-us-hc",
+      "flex-layout.row#about-us",
+      "flex-layout.row#titulo-novidades"
     ]
+  },
+  "flex-layout.row#about-us-hc": {
+    "children": [
+      "flex-layout.col#text-hiringcoders"
+    ]
+  },
+  "flex-layout.col#text-hiringcoders": {
+    "children": [
+      "rich-text#hiringcoders-title",
+      "rich-text#hiringcoders-content"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign":"center"
+    }
+  },
+  "rich-text#hiringcoders-title": {
+    "props": {
+      "text": "### O Hiring Coders"
+    }
+  },
+  "rich-text#hiringcoders-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Somos o programa de capacitação gratuito e sem pré-requisitos para te ensinar programação, digital commerce e como ter uma carreira à prova do futuro.<br>Seu desenvolvimento em Primeiro Lugar! Além dos módulos de soft skills, o Hiring Coders te oferece uma formação full-stack.",
+      "horizontalAlign":"center"
+    }
   },
   "flex-layout.row#about-us": {
     "children": [
@@ -17,7 +48,8 @@
       "rich-text#missao-content"
     ],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "horizontalAlign":"center"
     }
   },
   "rich-text#missao-title": {
@@ -27,7 +59,10 @@
   },
   "rich-text#missao-content": {
     "props": {
-      "text": " This is the _VTEX Minimum Theme_,\n you can use it to test blocks usage and build your first store from scratch."
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " Oferecer excelentes produtos, personalizados e exclusivos, que transmite um pouco dessa vivência incrível, que é a jornada Hiring Coders",
+      "horizontalAlign":"center"
     }
   },
   "flex-layout.col#text-visao": {
@@ -36,7 +71,8 @@
       "rich-text#visao-content"
     ],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "horizontalAlign":"center"
     }
   },
   "rich-text#visao-title": {
@@ -46,7 +82,9 @@
   },
   "rich-text#visao-content": {
     "props": {
-      "text": " This is the _VTEX Minimum Theme_,\n you can use it to test blocks usage and build your first store from scratch."
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " Ser uma loja reconhecida pela qualidade e inovação de seus produtos e ter um amplo portfólio que atenda as necessidades dos nossos clientes e participantes."
     }
   },
   "flex-layout.col#text-valores": {
@@ -55,7 +93,8 @@
       "rich-text#valores-content"
     ],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "horizontalAlign":"center"
     }
   },
   "rich-text#valores-title": {
@@ -65,7 +104,9 @@
   },
   "rich-text#valores-content": {
     "props": {
-      "text": " This is the _VTEX Minimum Theme_,\n you can use it to test blocks usage and build your first store from scratch."
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Valorização do trabalho em equipe;<br>Crença na capacitação com foco no alto desempenho;<br>Bom Humor, um sorriso abre portas e conquista pessoas."
     }
   }
 }

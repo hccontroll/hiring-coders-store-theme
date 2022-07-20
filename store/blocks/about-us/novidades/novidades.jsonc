@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#titulo-novidades": {
+    "title": "[About-us] - Titulo Seção: Novidades",
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": ["container", "section-title"]
+    },
+    "children": ["rich-text#titulo-novidades"]
+  },
+  "rich-text#titulo-novidades": {
+    "title": "[About-us] - Título: Novidades",
+    "props": {
+      "blockClass": ["section-title"],
+      "text": "Novidades"
+    }
+  },
+  "flex-layout.row#novidades": {
+    "children": ["list-context.product-list#novidades"]
+  },
+  "list-context.product-list#novidades": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#produtos"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  }
+}

@@ -140,9 +140,14 @@
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 
-  background-color: #142032;
+  background-color: #ff5604;
   margin-bottom: 10px;
+  border: 4px solid #ff5604;
+}
+
+.minicartCheckoutButton:hover :global(.vtex-button) {
   border: 4px solid #142032;
+  background-color: #142032;
 }
 
 .minicartCheckoutButton :global(.vtex-button__label) {
@@ -152,10 +157,6 @@
   font-size: 18px;
 
   transition: all 0.3s ease-in-out;
-}
-
-.minicartCheckoutButton:hover :global(.vtex-button__label) {
-  opacity: 0.7;
 }
 
 .minicartSideBarContentWrapper {

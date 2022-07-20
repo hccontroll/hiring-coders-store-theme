@@ -39,7 +39,16 @@
 
 .flexRow--login--container {
   display: flex !important;
-  align-items: center;  
+  align-items: center;
+}
+
+.flexCol--login-container-mobile {
+  position: relative;
+  top: -50px;
+  z-index: 1;
+  width: 80%;
+  margin-left: 20%;
+  margin-bottom: -50px;
 }
 
 .flexCol--logo-desktop,

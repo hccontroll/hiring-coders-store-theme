@@ -18,6 +18,7 @@
 
 .profile,
 .label {
+  display: block;
   font-family: "VTEX Trust Bold", San Francisco, -apple-system, helvetica,
     sans-serif;
   font-style: normal;

@@ -1,0 +1,71 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us"
+    ]
+  },
+  "flex-layout.row#about-us": {
+    "children": [
+      "flex-layout.col#text-missao",
+      "flex-layout.col#text-visao",
+      "flex-layout.col#text-valores"
+    ]
+  },
+  "flex-layout.col#text-missao": {
+    "children": [
+      "rich-text#missao-title",
+      "rich-text#missao-content"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#missao-title": {
+    "props": {
+      "text": "### Missão"
+    }
+  },
+  "rich-text#missao-content": {
+    "props": {
+      "text": " This is the _VTEX Minimum Theme_,\n you can use it to test blocks usage and build your first store from scratch."
+    }
+  },
+  "flex-layout.col#text-visao": {
+    "children": [
+      "rich-text#visao-title",
+      "rich-text#visao-content"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#visao-title": {
+    "props": {
+      "text": "### Visão"
+    }
+  },
+  "rich-text#visao-content": {
+    "props": {
+      "text": " This is the _VTEX Minimum Theme_,\n you can use it to test blocks usage and build your first store from scratch."
+    }
+  },
+  "flex-layout.col#text-valores": {
+    "children": [
+      "rich-text#valores-title",
+      "rich-text#valores-content"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#valores-title": {
+    "props": {
+      "text": "### Valores"
+    }
+  },
+  "rich-text#valores-content": {
+    "props": {
+      "text": " This is the _VTEX Minimum Theme_,\n you can use it to test blocks usage and build your first store from scratch."
+    }
+  }
+}

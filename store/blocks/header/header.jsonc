@@ -39,7 +39,7 @@
       "flex-layout.col#spacer",
       "search-bar",
       "flex-layout.col#spacer",
-      "login",
+      "flex-layout.col#login",
       "minicart.v2#default"
     ]
   },
@@ -90,7 +90,7 @@
       "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
+      "flex-layout.col#login",
       "minicart.v2#default"
     ],
     "props": {
@@ -147,8 +147,8 @@
       "blockClass": "login--container"
     },
     "children": [
-      "login"
-      // "hiringcoins"
+      "login",
+      "hiringcoins"
     ]
   }
 }

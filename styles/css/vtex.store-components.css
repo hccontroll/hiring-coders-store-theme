@@ -13,6 +13,21 @@
   padding: 0px;
 }
 
+.infoCardContainer--info-card-casas1 {
+  margin: auto;
+  background-color: #ccced8;
+  padding: 0px;
+  object-fit: cover;
+}
+
+.infoCardImageContainer--info-card-right {
+  object-fit: cover;
+  display: flex;
+  margin: 0 auto;
+  background-color: #ccced8;
+  padding: 0px;
+  }
+
 .newsletter {
   background-color: #03054e;
   max-width: 1528px;

@@ -14,6 +14,13 @@
   font-weight: 200;
 }
 
+.heading--about-text {
+  color: #142032;
+  text-align: left;
+  margin: 25px;
+  font-size: 34px;
+}
+
 .container--deals .paragraph {
   margin: 0;
 }
@@ -71,6 +78,22 @@
   color: #fff;
 }
 
+.paragraph--about-text{
+  text-align: left;
+  color: #142032;
+  margin: 15px;
+  padding: 15px;
+}
+
+.paragraph--about-text-hc{
+  width: 95%;
+  padding: 0 80px;
+  margin-left: 75px;
+  margin-right: 70px;
+  text-align: left;
+  color: #142032;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -90,5 +113,9 @@
 
   .container--title .paragraph {
     line-height: 1.3em;
+    
   }
+
+  
+  
 }

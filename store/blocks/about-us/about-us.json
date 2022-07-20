@@ -1,0 +1,132 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "image#quem-somos",
+      "flex-layout.row#about-us-hc",
+      "flex-layout.row#about-us",
+      "slider-layout#slider-cta-2",
+      "flex-layout.row#titulo-novidades",
+      "flex-layout.row#novidades"
+    ]
+  },
+  "image#quem-somos": {
+    "props": {
+      "src": "assets/images/about-us/banner-quem-somos.jpg"
+    }
+  },
+  "flex-layout.row#about-us-hc": {
+    "children": [
+      "flex-layout.col#text-hiringcoders"
+    ]
+  },
+  "flex-layout.col#text-hiringcoders": {
+    "children": [
+      "rich-text#hiringcoders-title",
+      "rich-text#hiringcoders-content"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign":"center"
+      
+    }
+  },
+  "rich-text#hiringcoders-title": {
+    "props": {
+      "text": "### Quem Somos",
+      "blockClass":"about-text"
+    }
+  },
+  "rich-text#hiringcoders-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Somos o programa de capacitação gratuito e sem pré-requisitos para te ensinar programação, digital commerce e como ter uma carreira à prova do futuro.<br>Seu desenvolvimento em Primeiro Lugar! Além dos módulos de soft skills, o Hiring Coders te oferece uma formação full-stack.<br>Nossa loja é inspirada nas casas do programa: Atmosphere, Bitsized, Controll, Dreamscape, Speedware e Travellog.<br>As casas são divididas levando em consideração diversas Skills que os participantes possuem, tais como: Colaboração, Adaptabilidade, Criatividade, Legitimidade, Organização e Comunicação.",
+      "horizontalAlign":"left",
+      "blockClass":"about-text-hc"
+    }
+  },
+  "flex-layout.row#about-us": {
+    "children": [
+      "flex-layout.col#text-missao",
+      "flex-layout.col#text-visao",
+      "flex-layout.col#text-valores"
+    ],
+    "props": {
+      "blockClass":"about-text"
+    }
+  },
+  "flex-layout.col#text-missao": {
+    "children": [
+      "rich-text#missao-title",
+      "rich-text#missao-content"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign":"left",
+      "blockClass":"about-text"
+    }
+  },
+  "rich-text#missao-title": {
+    "props": {
+      "text": "### Missão",
+      "blockClass":"about-text"
+    }
+  },
+  "rich-text#missao-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " Oferecer excelentes produtos, personalizados e exclusivos, que transmite um pouco dessa vivência incrível, que é a jornada Hiring Coders",
+      "blockClass":"about-text"
+    }
+  },
+  "flex-layout.col#text-visao": {
+    "children": [
+      "rich-text#visao-title",
+      "rich-text#visao-content"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign":"left"
+      
+    }
+  },
+  "rich-text#visao-title": {
+    "props": {
+      "text": "### Visão",
+      "blockClass":"about-text"
+    }
+  },
+  "rich-text#visao-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " Ser uma loja reconhecida pela qualidade e inovação de seus produtos e ter um amplo portfólio que atenda as necessidades dos nossos clientes e participantes.",
+      "blockClass":"about-text"
+    }
+  },
+  "flex-layout.col#text-valores": {
+    "children": [
+      "rich-text#valores-title",
+      "rich-text#valores-content"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign":"left"
+    }
+  },
+  "rich-text#valores-title": {
+    "props": {
+      "text": "### Valores",
+      "blockClass":"about-text"
+    }
+  },
+  "rich-text#valores-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Valorização do trabalho em equipe;<br>Crença na capacitação com foco no alto desempenho;<br>Bom Humor, um sorriso abre portas e conquista pessoas.",
+      "blockClass":"about-text"
+    }
+  }
+}

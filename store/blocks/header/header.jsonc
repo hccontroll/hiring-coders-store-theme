@@ -18,23 +18,5 @@
     "props":{
       "blockClass": "login"
     }
-  },
-  "flex-layout.col#login": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "flex-layout.row#login"
-    ]
-  },
-  "flex-layout.row#login": {
-    "props": {
-      "blockClass": "login--container"
-    },
-    "children": [
-      "login"
-      // "hiringcoins"
-    ]
   }
 }

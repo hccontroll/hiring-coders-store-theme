@@ -41,8 +41,8 @@
   },
   "rich-text#texto-quem-somos": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "Somos o programa de capacitação gratuito e sem pré-requisitos para te ensinar programação, digital commerce e como ter uma carreira à prova do futuro.<br>Seu desenvolvimento em Primeiro Lugar! Além dos módulos de soft skills, o Hiring Coders te oferece uma formação full-stack.<br>Nossa loja é inspirada nas casas do programa: Atmosphere, Bitsized, Controll, Dreamscape, Speedware e Travellog.<br>As casas são divididas levando em consideração diversas Skills que os participantes possuem, tais como: Colaboração, Adaptabilidade, Criatividade, Legitimidade, Organização e Comunicação.",
       "horizontalAlign": "left",
       "blockClass": "texto-quem-somos"
@@ -62,7 +62,9 @@
     "children": ["rich-text#missao-title", "rich-text#missao-content"],
     "props": {
       "preventVerticalStretch": true,
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "paddingRight": 6,
+      "paddingLeft": 6
     }
   },
   "rich-text#missao-title": {
@@ -75,8 +77,8 @@
   },
   "rich-text#missao-content": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "Oferecer excelentes produtos, personalizados e exclusivos, que transmite um pouco dessa vivência incrível, que é a jornada Hiring Coders",
       "blockClass": "texto-quem-somos"
     }
@@ -85,7 +87,9 @@
     "children": ["rich-text#visao-title", "rich-text#visao-content"],
     "props": {
       "preventVerticalStretch": true,
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "paddingRight": 6,
+      "paddingLeft": 6
     }
   },
   "rich-text#visao-title": {
@@ -98,8 +102,8 @@
   },
   "rich-text#visao-content": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": " Ser uma loja reconhecida pela qualidade e inovação de seus produtos e ter um amplo portfólio que atenda as necessidades dos nossos clientes e participantes.",
       "blockClass": "texto-quem-somos"
     }
@@ -108,7 +112,9 @@
     "children": ["rich-text#valores-title", "rich-text#valores-content"],
     "props": {
       "preventVerticalStretch": true,
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "paddingRight": 6,
+      "paddingLeft": 6
     }
   },
   "rich-text#valores-title": {
@@ -121,8 +127,8 @@
   },
   "rich-text#valores-content": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "Valorização do trabalho em equipe;<br>Crença na capacitação com foco no alto desempenho;<br>Bom Humor, um sorriso abre portas e conquista pessoas.",
       "blockClass": "texto-quem-somos"
     }

@@ -154,7 +154,9 @@
         "logo-navegue-por-casas--controll"
       ],
       "width": 200,
-      "url": "#",
+      "link": {
+        "url": "/141?map=productClusterIds"
+      },
       "src": "assets/images/casas/logo-controll.png"
     }
   },
@@ -175,7 +177,9 @@
         "logo-navegue-por-casas--travellog"
       ],
       "width": 200,
-      "url": "#",
+      "link": {
+        "url": "/144?map=productClusterIds"
+      },
       "src": "assets/images/casas/logo-travellog.png"
     }
   },
@@ -196,7 +200,9 @@
         "logo-navegue-por-casas--dreamscape"
       ],
       "width": 200,
-      "url": "#",
+      "link": {
+        "url": "/142?map=productClusterIds"
+      },
       "src": "assets/images/casas/logo-dreamscape.png"
     }
   },
@@ -217,7 +223,9 @@
         "logo-navegue-por-casas--bitsized"
       ],
       "width": 200,
-      "url": "#",
+      "link": {
+        "url": "/140?map=productClusterIds"
+      },
       "src": "assets/images/casas/logo-bitsized.png"
     }
   },
@@ -238,7 +246,9 @@
         "logo-navegue-por-casas--atmosphere"
       ],
       "width": 200,
-      "url": "#",
+      "link": {
+        "url": "/139?map=productClusterIds"
+      },
       "src": "assets/images/casas/logo-atmosphere.png"
     }
   },
@@ -259,7 +269,9 @@
         "logo-navegue-por-casas--speedware"
       ],
       "width": 200,
-      "url": "#",
+      "link": {
+        "url": "/143?map=productClusterIds"
+      },
       "src": "assets/images/casas/logo-speedware.png"
     }
   }

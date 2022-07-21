@@ -1,0 +1,26 @@
+{
+  "store.custom#casa-controll": {
+    "blocks": ["image#landing", "search-result-layout.customQuery#controll"]
+  },
+  "image#landing": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://user-images.githubusercontent.com/18701182/69889938-64b16180-12d2-11ea-8d8a-e3089cbeaffd.png"
+    }
+  },
+  "search-result-layout.customQuery#controll": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 12,
+        "queryField": "145",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

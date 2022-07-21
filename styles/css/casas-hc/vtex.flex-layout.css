@@ -1,0 +1,12 @@
+.flexRow--casa-hc {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.flexRow--casa-hc-par {
+    background-color: #CCCFD8;
+}
+
+.flexRowContent--casa-hc-par {
+    flex-direction: row-reverse;
+}

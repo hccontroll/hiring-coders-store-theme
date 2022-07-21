@@ -1,0 +1,130 @@
+{
+  "store.custom#quem-somos": {
+    "blocks": [
+      "image#quem-somos",
+      "flex-layout.row#titulo-quem-somos",
+      "flex-layout.row#texto-quem-somos",
+      "flex-layout.row#missao-visao-valores",
+      "slider-layout#slider-cta-2"
+    ]
+  },
+  "image#quem-somos": {
+    "props": {
+      "blockClass": "banner",
+      "src": "assets/images/banner/hcshop-banner-quem-somos.jpg"
+    }
+  },
+  "flex-layout.row#titulo-quem-somos": {
+    "title": "[Casas HC] - Titulo Casas",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["container", "section-title", "section-title-center"]
+    },
+    "children": ["rich-text#titulo-quem-somos"]
+  },
+  "rich-text#titulo-quem-somos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["section-title"],
+      "text": "Quem Somos"
+    }
+  },
+  "flex-layout.row#texto-quem-somos": {
+    "props": {
+      "blockClass": ["container"]
+    },
+    "children": [
+      "rich-text#texto-quem-somos"
+    ]
+  },
+  "rich-text#texto-quem-somos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Somos o programa de capacitação gratuito e sem pré-requisitos para te ensinar programação, digital commerce e como ter uma carreira à prova do futuro.<br>Seu desenvolvimento em Primeiro Lugar! Além dos módulos de soft skills, o Hiring Coders te oferece uma formação full-stack.<br>Nossa loja é inspirada nas casas do programa: Atmosphere, Bitsized, Controll, Dreamscape, Speedware e Travellog.<br>As casas são divididas levando em consideração diversas Skills que os participantes possuem, tais como: Colaboração, Adaptabilidade, Criatividade, Legitimidade, Organização e Comunicação.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-quem-somos"
+    }
+  },
+  "flex-layout.row#missao-visao-valores": {
+    "children": [
+      "flex-layout.col#text-missao",
+      "flex-layout.col#text-visao",
+      "flex-layout.col#text-valores"
+    ],
+    "props": {
+      "blockClass": ["container", "missao-visao-valores"]
+    }
+  },
+  "flex-layout.col#text-missao": {
+    "children": ["rich-text#missao-title", "rich-text#missao-content"],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#missao-title": {
+    "props": {
+      "text": "Missão",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-quem-somos"
+    }
+  },
+  "rich-text#missao-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Oferecer excelentes produtos, personalizados e exclusivos, que transmite um pouco dessa vivência incrível, que é a jornada Hiring Coders",
+      "blockClass": "texto-quem-somos"
+    }
+  },
+  "flex-layout.col#text-visao": {
+    "children": ["rich-text#visao-title", "rich-text#visao-content"],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#visao-title": {
+    "props": {
+      "text": "Visão",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-quem-somos"
+    }
+  },
+  "rich-text#visao-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " Ser uma loja reconhecida pela qualidade e inovação de seus produtos e ter um amplo portfólio que atenda as necessidades dos nossos clientes e participantes.",
+      "blockClass": "texto-quem-somos"
+    }
+  },
+  "flex-layout.col#text-valores": {
+    "children": ["rich-text#valores-title", "rich-text#valores-content"],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#valores-title": {
+    "props": {
+      "text": "Valores",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-quem-somos"
+    }
+  },
+  "rich-text#valores-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Valorização do trabalho em equipe;<br>Crença na capacitação com foco no alto desempenho;<br>Bom Humor, um sorriso abre portas e conquista pessoas.",
+      "blockClass": "texto-quem-somos"
+    }
+  }
+}

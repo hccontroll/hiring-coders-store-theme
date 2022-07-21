@@ -1,20 +1,26 @@
 {
   "store.custom#casas-hc": {
     "blocks": [
-      "image#banner-quem-somos",
+      "image#quem-somos",
       "flex-layout.row#titulo-casas-hc",
       "flex-layout.row#casa-hc-1",
       "flex-layout.row#casa-hc-2",
       "flex-layout.row#casa-hc-3",
       "flex-layout.row#casa-hc-4",
       "flex-layout.row#casa-hc-5",
-      "flex-layout.row#casa-hc-6"
+      "flex-layout.row#casa-hc-6",
+      "flex-layout.row#slider-cta-casas-hc"
     ]
   },
-  "image#banner-quem-somos": {
+  "flex-layout.row#slider-cta-casas-hc": {
     "props": {
-      "src": "assets/images/banner/hcshop-banner-quem-somos.jpg"
-    }
+        "blockClass": [
+            "slider-cta-casas-hc"
+        ]
+    },
+    "children": [
+        "slider-layout#slider-cta-2"
+    ]
   },
   "flex-layout.row#titulo-casas-hc": {
     "title": "[Casas HC] - Titulo Casas",

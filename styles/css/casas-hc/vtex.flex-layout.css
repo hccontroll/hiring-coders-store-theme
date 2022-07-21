@@ -10,3 +10,7 @@
 .flexRowContent--casa-hc-par {
     flex-direction: row-reverse;
 }
+
+.flexRow--slider-cta-casas-hc {
+    margin-top: 80px;
+}

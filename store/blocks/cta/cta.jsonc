@@ -1,0 +1,93 @@
+{
+  "slider-layout#slider-cta-1": {
+    "title": "[Home] Slider CTA-1",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": ["container"]
+    },
+    "children": ["flex-layout.row#cta-1", "flex-layout.row#cta-2"]
+  },
+  "slider-layout#slider-cta-2": {
+    "title": "[Home] Slider CTA-2",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": ["container"]
+    },
+    "children": ["flex-layout.row#cta-3", "flex-layout.row#cta-4"]
+  },
+  "flex-layout.row#cta-1": {
+    "props": {
+      "blockClass": ["cta"]
+    },
+    "children": ["image#cta-1"]
+  },
+  "flex-layout.row#cta-2": {
+    "props": {
+      "blockClass": ["cta"]
+    },
+    "children": ["image#cta-2"]
+  },
+  "flex-layout.row#cta-3": {
+    "props": {
+      "blockClass": ["cta"]
+    },
+    "children": ["image#cta-3"]
+  },
+  "flex-layout.row#cta-4": {
+    "props": {
+      "blockClass": ["cta"]
+    },
+    "children": ["image#cta-4"]
+  },
+
+  "image#cta-1": {
+    "title": "[Home] - CTA 1 - Imagem",
+    "props": {
+      "link": {
+        "url": "/Mochilas?map=c"
+      },
+      "src": "assets/images/cta/call-to-action-mochila.jpg"
+    }
+  },
+  "image#cta-2": {
+    "title": "[Home] - CTA 2 - Imagem",
+    "props": {
+      "link": {
+        "url": "/Hats?map=c"
+      },
+      "src": "assets/images/cta/call-to-action-hat.jpg"
+    }
+  },
+  "image#cta-3": {
+    "title": "[Home] - CTA 3 - Imagem",
+    "props": {
+      "link": {
+        "url": "/Copos?map=c"
+      },
+      "src": "assets/images/cta/call-to-action-copo.jpg"
+    }
+  },
+  "image#cta-4": {
+    "title": "[Home] - CTA 4 - Imagem",
+    "props": {
+      "link": {
+        "url": "/Camisetas?map=c"
+      },
+      "src": "assets/images/cta/call-to-action-camiseta.jpg"
+    }
+  }
+}

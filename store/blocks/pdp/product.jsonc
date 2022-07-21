@@ -1,14 +1,26 @@
 {
   "store.product": {
     "children": [
+      "flex-layout.row#product-page",
+      "flex-layout.row#titulo-ofertas",
+      "flex-layout.row#ofertas",      
+      "slider-layout#slider-cta-2"
+    ]
+  },
+  "flex-layout.row#product-page": {
+    "props": {
+      "blockClass": [
+        "container"
+      ]
+    },
+    "children": [
+      "flex-layout.col#product-page"
+    ]
+  },
+  "flex-layout.col#product-page": {
+    "children": [
       "flex-layout.row#product-breadcrumb",
-      "condition-layout.product#availability",
-      "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
-      "product-specification-group#table",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "condition-layout.product#availability"
     ]
   },
   "flex-layout.row#specifications-title": {

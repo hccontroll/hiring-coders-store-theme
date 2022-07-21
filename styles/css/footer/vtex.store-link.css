@@ -1,0 +1,14 @@
+.link--link-footer {
+  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+    sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.link--link-footer:hover {
+  opacity: 0.7;
+}

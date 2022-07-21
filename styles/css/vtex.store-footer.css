@@ -28,3 +28,12 @@
 .footerLayoutSpacer{
   height: 75px;
 }
+
+.socialNetworkWrapper,
+.acceptedPaymentMethodContainer {
+  margin-top: -12px;
+}
+
+.footerLayout {
+  padding: 20px;
+}

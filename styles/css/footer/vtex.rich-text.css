@@ -1,0 +1,10 @@
+.paragraph--text-footer {
+  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+    sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+
+  margin: 0;
+}

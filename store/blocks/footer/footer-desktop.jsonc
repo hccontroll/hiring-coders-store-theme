@@ -1,0 +1,37 @@
+{
+  "flex-layout.row#footer-desktop": {
+    "props": {
+      "blockClass": ["container", "footer"]
+    },
+    "children": [
+      "flex-layout.col#footer-1-desktop",
+      "flex-layout.col#footer-2-desktop",
+      "flex-layout.col#footer-3-desktop",
+      "flex-layout.col#footer-4-desktop"
+    ]
+  },
+  "flex-layout.col#footer-1-desktop": {
+    "children": ["image#logo-hc"]
+  },
+  "flex-layout.col#footer-2-desktop": {
+    "children": [
+      "link#link-1",
+      "link#link-2",
+      "link#link-3",
+      "link#link-4",
+      "link#link-5",
+      "link#link-6"
+    ]
+  },
+  "flex-layout.col#footer-3-desktop": {
+    "children": [
+      "rich-text#siga-nos",
+      "social-networks",
+      "rich-text#pague-com",
+      "accepted-payment-methods"
+    ]
+  },
+  "flex-layout.col#footer-4-desktop": {
+    "children": ["rich-text#realizacao", "image#logo-vtex", "image#logo-gama"]
+  }
+}

@@ -3,24 +3,74 @@
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer-desktop"]
+  },
+  "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-1-mobile",
+      "flex-layout.row#footer-2-mobile",
+      "flex-layout.row#footer-3-mobile"
     ]
   },
-  "flex-layout.row#footer-1-desktop": {
-    "children": [
-      "footer-spacer",
-      "social-networks"
-    ],
+  "image#logo-hc": {
     "props": {
-      "blockClass": "menu-row",
-      "paddingTop": 6,
-      "paddingBottom": 3
+      "blockClass": ["logo-footer"],
+      "width": 180,
+      "height": 60,
+      "url": "/",
+      "src": "assets/images/logo/logo.svg"
     }
   },
-
+  "link#link-1": {
+    "props": {
+      "href": "/quem-somos",
+      "label": "Quem Somos",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#link-2": {
+    "props": {
+      "href": "/casas-hc",
+      "label": "Casas do Programa",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#link-3": {
+    "props": {
+      "href": "#",
+      "label": "Política de Privacidade",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#link-4": {
+    "props": {
+      "href": "#",
+      "label": "Termos de Uso",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#link-5": {
+    "props": {
+      "href": "#",
+      "label": "Política de Troca",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#link-6": {
+    "props": {
+      "href": "#",
+      "label": "Contato",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "rich-text#siga-nos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Siga-nos",
+      "blockClass": ["text-footer"]
+    }
+  },
   "social-networks": {
     "props": {
       "showInColor": false,
@@ -34,21 +84,18 @@
           "url": "https://www.instagram.com/vtextruecloud/"
         },
         {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
           "name": "Youtube",
           "url": "https://www.youtube.com/user/VTEXTV"
         }
       ]
     }
   },
-
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+  "rich-text#pague-com": {
     "props": {
-      "blockClass": "payment-methods"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Pague com",
+      "blockClass": ["text-footer"]
     }
   },
   "accepted-payment-methods": {
@@ -56,58 +103,30 @@
       "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
     }
   },
-
-  "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+  "rich-text#realizacao": {
     "props": {
-      "blockClass": "credits"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Realização",
+      "blockClass": ["text-footer"]
     }
   },
-  "rich-text#footer": {
+  "image#logo-vtex": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
+      "blockClass": ["logo-footer"],
+      "width": 130,
+      "height": 40,
+      "url": "#",
+      "src": "assets/images/logo/logo_vtex.png"
     }
   },
-
-  "footer-layout.mobile": {
-    "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
-    ]
-  },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
+  "image#logo-gama": {
     "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4
-    }
-  },
-  "flex-layout.col#footer-1-mobile": {
-    "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
-    ],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4
-    }
-  },
-  "flex-layout.row#1-footer-mobile": {
-    "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
-    },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
+      "blockClass": ["logo-footer"],
+      "width": 180,
+      "height": 40,
+      "url": "#",
+      "src": "assets/images/logo/logo_gama.png"
     }
   }
 }

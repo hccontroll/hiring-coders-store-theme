@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#footer-1-mobile": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center"
+    },
+    "children": ["image#logo-hc"]
+  },
+  "flex-layout.row#footer-2-mobile": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "marginTop": 6,
+      "marginBottom": 6
+    },
+    "children": [
+      "flex-layout.col#links-1-mobile",
+      "flex-layout.col#links-2-mobile"
+    ]
+  },
+  "flex-layout.col#links-1-mobile": {
+    "children": ["link#link-1", "link#link-2", "link#link-3"]
+  },
+  "flex-layout.col#links-2-mobile": {
+    "children": ["link#link-4", "link#link-5", "link#link-6"]
+  },
+  "flex-layout.row#footer-3-mobile": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.col#footer-3-1-mobile", "flex-layout.col#footer-3-2-mobile"]
+  },
+  "flex-layout.col#footer-3-1-mobile": {
+    "children": [
+      "rich-text#siga-nos",
+      "social-networks",
+      "rich-text#pague-com",
+      "accepted-payment-methods"
+    ]
+  },
+  "flex-layout.col#footer-3-2-mobile": {
+    "children": ["rich-text#realizacao", "image#logo-vtex", "image#logo-gama"]
+  }
+}
